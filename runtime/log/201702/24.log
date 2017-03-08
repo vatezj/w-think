@@ -1,0 +1,1839 @@
+[ 2017-02-24T19:35:27+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] w-think.hyx.com/ [运行时间：0.197058s][吞吐率：5.07req/s] [内存消耗：915.09kb] [文件加载：25]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\web\w-think\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:35:28+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] w-think.hyx.com/favicon.ico [运行时间：0.084824s][吞吐率：11.79req/s] [内存消耗：950.22kb] [文件加载：27]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:36:31+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] w-think.hyx.com/ [运行时间：0.020040s][吞吐率：49.90req/s] [内存消耗：914.42kb] [文件加载：25]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\web\w-think\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:37:18+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] w-think.hyx.com/ [运行时间：0.021059s][吞吐率：47.49req/s] [内存消耗：914.56kb] [文件加载：25]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\web\w-think\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:37:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index
+[ log ] w-think.hyx.com/index/index [运行时间：0.022856s][吞吐率：43.75req/s] [内存消耗：917.02kb] [文件加载：25]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\web\w-think\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:37:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/name/a
+[ log ] w-think.hyx.com/index/index/name/a [运行时间：0.200870s][吞吐率：4.98req/s] [内存消耗：951.98kb] [文件加载：28]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'name',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:37:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index/name/a
+[ log ] w-think.hyx.com/index/index/index/name/a [运行时间：0.022658s][吞吐率：44.13req/s] [内存消耗：917.40kb] [文件加载：25]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'a',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\web\w-think\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:37:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index/name/%E8%83%A1%E6%9C%A8%E6%9C%A8
+[ log ] w-think.hyx.com/index/index/index/name/%E8%83%A1%E6%9C%A8%E6%9C%A8 [运行时间：0.023966s][吞吐率：41.73req/s] [内存消耗：917.44kb] [文件加载：25]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888',
+)
+[ info ] [ PARAM ] array (
+  'name' => '胡木木',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\web\w-think\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:38:14+08:00 ] 127.0.0.1 127.0.0.1 GET /Index/index/index/name/%E8%83%A1%E6%9C%A8%E6%9C%A8
+[ log ] w-think.hyx.com/Index/index/index/name/%E8%83%A1%E6%9C%A8%E6%9C%A8 [运行时间：0.022913s][吞吐率：43.64req/s] [内存消耗：917.44kb] [文件加载：25]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888',
+)
+[ info ] [ PARAM ] array (
+  'name' => '胡木木',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\web\w-think\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:38:50+08:00 ] 127.0.0.1 127.0.0.1 GET /ADMIN
+[ log ] w-think.hyx.com/ADMIN [运行时间：0.404112s][吞吐率：2.47req/s] [内存消耗：1,319.49kb] [文件加载：38]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ADMIN',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:38:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/login.html
+[ log ] w-think.hyx.com/admin/base/login.html [运行时间：0.120323s][吞吐率：8.31req/s] [内存消耗：1,245.81kb] [文件加载：35]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Base->login[ F:\web\w-think\application\admin\controller\Base.php ]
+[ info ] [ VIEW ] application/admin\view\Index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:38:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/dologin.html?
+[ log ] w-think.hyx.com/admin/base/dologin.html? [运行时间：0.031234s][吞吐率：32.02req/s] [内存消耗：1,265.75kb] [文件加载：36]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Base->dologin[ F:\web\w-think\application\admin\controller\Base.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:38:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] w-think.hyx.com/admin/index/index.html [运行时间：0.406533s][吞吐率：2.46req/s] [内存消耗：2,595.85kb] [文件加载：46]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\web\w-think\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] application/admin\view\Index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037237s ] mysql:dbname=w-think;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wthink_menu` [ RunTime:0.224782s ]
+[ sql ] [ SQL ] SELECT * FROM `wthink_menu` ORDER BY listorder asc  [ RunTime:0.007829s ]
+
+---------------------------------------------------------------
+[ 2017-02-24T19:38:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/main.html
+[ log ] w-think.hyx.com/admin/index/main.html [运行时间：0.069404s][吞吐率：14.41req/s] [内存消耗：1,440.70kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ F:\web\w-think\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] application/admin\view\Index\main.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002192s ] mysql:dbname=w-think;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT VERSION() AS ver [ RunTime:0.009647s ]
+
+---------------------------------------------------------------
+[ 2017-02-24T19:38:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/favicon.ico
+[ log ] w-think.hyx.com/admin/index/favicon.ico [运行时间：0.041492s][吞吐率：24.10req/s] [内存消耗：1,280.23kb] [文件加载：38]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:38:56+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/user/userinfo.html
+[ log ] w-think.hyx.com/Admin/user/userinfo.html [运行时间：0.023069s][吞吐率：43.35req/s] [内存消耗：956.09kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'user',
+    2 => 'userinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:38:57+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/setting/password.html
+[ log ] w-think.hyx.com/Admin/setting/password.html [运行时间：0.020901s][吞吐率：47.84req/s] [内存消耗：956.14kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'setting',
+    2 => 'password',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:38:57+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/user/userinfo.html
+[ log ] w-think.hyx.com/Admin/user/userinfo.html [运行时间：0.021264s][吞吐率：47.03req/s] [内存消耗：956.09kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'user',
+    2 => 'userinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:38:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/main.html
+[ log ] w-think.hyx.com/admin/index/main.html [运行时间：0.029809s][吞吐率：33.55req/s] [内存消耗：1,440.70kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ F:\web\w-think\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] application/admin\view\Index\main.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002134s ] mysql:dbname=w-think;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT VERSION() AS ver [ RunTime:0.000493s ]
+
+---------------------------------------------------------------
+[ 2017-02-24T19:44:34+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/template/list.html
+[ log ] w-think.hyx.com/Admin/template/list.html [运行时间：0.029239s][吞吐率：34.20req/s] [内存消耗：956.09kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'template',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:44:36+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/setting/clearcache.html
+[ log ] w-think.hyx.com/Admin/setting/clearcache.html [运行时间：0.021866s][吞吐率：45.73req/s] [内存消耗：956.09kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'setting',
+    2 => 'clearcache',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:44:37+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/setting/clearcache.html
+[ log ] w-think.hyx.com/Admin/setting/clearcache.html [运行时间：0.020909s][吞吐率：47.83req/s] [内存消耗：956.09kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'setting',
+    2 => 'clearcache',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:44:37+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/setting/clearcache.html
+[ log ] w-think.hyx.com/Admin/setting/clearcache.html [运行时间：0.020787s][吞吐率：48.11req/s] [内存消耗：956.09kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'setting',
+    2 => 'clearcache',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:44:45+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/setting/site_post.html
+[ log ] w-think.hyx.com/Admin/setting/site_post.html [运行时间：0.030149s][吞吐率：33.17req/s] [内存消耗：956.09kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'setting',
+    2 => 'site_post',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:44:45+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/route/index.html
+[ log ] w-think.hyx.com/Admin/route/index.html [运行时间：0.023098s][吞吐率：43.29req/s] [内存消耗：956.11kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'route',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:44:45+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/route/add.html
+[ log ] w-think.hyx.com/Admin/route/add.html [运行时间：0.021008s][吞吐率：47.60req/s] [内存消耗：956.14kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'route',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:44:50+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/setting/clearcache.html
+[ log ] w-think.hyx.com/Admin/setting/clearcache.html [运行时间：0.020714s][吞吐率：48.28req/s] [内存消耗：956.09kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'setting',
+    2 => 'clearcache',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:44:55+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/template/list.html
+[ log ] w-think.hyx.com/Admin/template/list.html [运行时间：0.021541s][吞吐率：46.42req/s] [内存消耗：956.09kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'template',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:04+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/plugin/toggle.html
+[ log ] w-think.hyx.com/Admin/plugin/toggle.html [运行时间：0.021659s][吞吐率：46.17req/s] [内存消耗：956.07kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'plugin',
+    2 => 'toggle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:05+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/plugin/toggle.html
+[ log ] w-think.hyx.com/Admin/plugin/toggle.html [运行时间：0.020343s][吞吐率：49.16req/s] [内存消耗：956.07kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'plugin',
+    2 => 'toggle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:05+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/plugin/toggle.html
+[ log ] w-think.hyx.com/Admin/plugin/toggle.html [运行时间：0.019453s][吞吐率：51.41req/s] [内存消耗：956.07kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'plugin',
+    2 => 'toggle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:05+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/plugin/toggle.html
+[ log ] w-think.hyx.com/Admin/plugin/toggle.html [运行时间：0.022502s][吞吐率：44.44req/s] [内存消耗：956.07kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'plugin',
+    2 => 'toggle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:05+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/plugin/toggle.html
+[ log ] w-think.hyx.com/Admin/plugin/toggle.html [运行时间：0.021909s][吞吐率：45.64req/s] [内存消耗：956.07kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'plugin',
+    2 => 'toggle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:06+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/plugin/setting.html
+[ log ] w-think.hyx.com/Admin/plugin/setting.html [运行时间：0.021587s][吞吐率：46.32req/s] [内存消耗：956.07kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'plugin',
+    2 => 'setting',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:07+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/plugin/toggle.html
+[ log ] w-think.hyx.com/Admin/plugin/toggle.html [运行时间：0.020352s][吞吐率：49.13req/s] [内存消耗：956.07kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'plugin',
+    2 => 'toggle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:08+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/plugin/install.html
+[ log ] w-think.hyx.com/Admin/plugin/install.html [运行时间：0.021293s][吞吐率：46.96req/s] [内存消耗：956.10kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'plugin',
+    2 => 'install',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:09+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/plugin/uninstall.html
+[ log ] w-think.hyx.com/Admin/plugin/uninstall.html [运行时间：0.020692s][吞吐率：48.33req/s] [内存消耗：956.11kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'plugin',
+    2 => 'uninstall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:09+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/plugin/update.html
+[ log ] w-think.hyx.com/Admin/plugin/update.html [运行时间：0.022403s][吞吐率：44.64req/s] [内存消耗：956.07kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'plugin',
+    2 => 'update',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:11+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/slide/index.html
+[ log ] w-think.hyx.com/Admin/slide/index.html [运行时间：0.022357s][吞吐率：44.73req/s] [内存消耗：956.11kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'slide',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:12+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/slidecat/index.html
+[ log ] w-think.hyx.com/Admin/slidecat/index.html [运行时间：0.020120s][吞吐率：49.70req/s] [内存消耗：956.08kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'slidecat',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:13+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/ad/toggle.html
+[ log ] w-think.hyx.com/Admin/ad/toggle.html [运行时间：0.021683s][吞吐率：46.12req/s] [内存消耗：956.13kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'ad',
+    2 => 'toggle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:13+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/ad/delete.html
+[ log ] w-think.hyx.com/Admin/ad/delete.html [运行时间：0.020913s][吞吐率：47.82req/s] [内存消耗：956.13kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'ad',
+    2 => 'delete',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:14+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/ad/edit.html
+[ log ] w-think.hyx.com/Admin/ad/edit.html [运行时间：0.021964s][吞吐率：45.53req/s] [内存消耗：956.08kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'ad',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:14+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/ad/add.html
+[ log ] w-think.hyx.com/Admin/ad/add.html [运行时间：0.020564s][吞吐率：48.63req/s] [内存消耗：956.08kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'ad',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:16+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/link/listorders.html
+[ log ] w-think.hyx.com/Admin/link/listorders.html [运行时间：0.020939s][吞吐率：47.76req/s] [内存消耗：956.09kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'link',
+    2 => 'listorders',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:16+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/link/toggle.html
+[ log ] w-think.hyx.com/Admin/link/toggle.html [运行时间：0.022485s][吞吐率：44.47req/s] [内存消耗：956.12kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'link',
+    2 => 'toggle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:17+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/link/toggle.html
+[ log ] w-think.hyx.com/Admin/link/toggle.html [运行时间：0.021256s][吞吐率：47.05req/s] [内存消耗：956.12kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'link',
+    2 => 'toggle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:17+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/link/delete.html
+[ log ] w-think.hyx.com/Admin/link/delete.html [运行时间：0.020835s][吞吐率：48.00req/s] [内存消耗：956.12kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'link',
+    2 => 'delete',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:17+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/link/edit.html
+[ log ] w-think.hyx.com/Admin/link/edit.html [运行时间：0.021083s][吞吐率：47.43req/s] [内存消耗：956.12kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:18+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/link/edit.html
+[ log ] w-think.hyx.com/Admin/link/edit.html [运行时间：0.021316s][吞吐率：46.91req/s] [内存消耗：956.12kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:18+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/link/add.html
+[ log ] w-think.hyx.com/Admin/link/add.html [运行时间：0.021530s][吞吐率：46.45req/s] [内存消耗：956.13kb] [文件加载：29]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:19+08:00 ] 127.0.0.1 127.0.0.1 GET /Api/oauthadmin/setting_post.html
+[ log ] w-think.hyx.com/Api/oauthadmin/setting_post.html [运行时间：0.020453s][吞吐率：48.89req/s] [内存消耗：950.95kb] [文件加载：27]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Api',
+    1 => 'oauthadmin',
+    2 => 'setting_post',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/menu.html
+[ log ] w-think.hyx.com/admin/index/menu.html [运行时间：0.061409s][吞吐率：16.28req/s] [内存消耗：2,360.56kb] [文件加载：43]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->menu[ F:\web\w-think\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002525s ] mysql:dbname=w-think;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wthink_menu` [ RunTime:0.011431s ]
+[ sql ] [ SQL ] SELECT * FROM `wthink_menu` ORDER BY listorder asc  [ RunTime:0.002095s ]
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/agile_board.html
+[ log ] w-think.hyx.com/admin/index/agile_board.html [运行时间：0.027827s][吞吐率：35.94req/s] [内存消耗：1,280.52kb] [文件加载：38]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'agile_board',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:30+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/menu.html
+[ log ] w-think.hyx.com/admin/index/menu.html [运行时间：0.059046s][吞吐率：16.94req/s] [内存消耗：2,360.56kb] [文件加载：43]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->menu[ F:\web\w-think\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002367s ] mysql:dbname=w-think;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wthink_menu` [ RunTime:0.011232s ]
+[ sql ] [ SQL ] SELECT * FROM `wthink_menu` ORDER BY listorder asc  [ RunTime:0.002095s ]
+
+---------------------------------------------------------------
+[ 2017-02-24T19:45:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/agile_board.html
+[ log ] w-think.hyx.com/admin/index/agile_board.html [运行时间：0.028211s][吞吐率：35.45req/s] [内存消耗：1,280.52kb] [文件加载：38]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'agile_board',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T20:24:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/main.html
+[ log ] w-think.hyx.com/admin/index/main.html [运行时间：0.035456s][吞吐率：28.20req/s] [内存消耗：1,440.70kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ F:\web\w-think\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] application/admin\view\Index\main.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002302s ] mysql:dbname=w-think;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT VERSION() AS ver [ RunTime:0.000464s ]
+
+---------------------------------------------------------------
+[ 2017-02-24T20:24:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/main.html
+[ log ] w-think.hyx.com/admin/index/main.html [运行时间：0.032131s][吞吐率：31.12req/s] [内存消耗：1,440.39kb] [文件加载：40]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://w-think.hyx.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=2978981888; PHPSESSID=aejcdrualj03tlvil8q0vdqdt7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ F:\web\w-think\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] application/admin\view\Index\main.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002129s ] mysql:dbname=w-think;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT VERSION() AS ver [ RunTime:0.000393s ]
+
+---------------------------------------------------------------
+[ 2017-02-24T20:28:29+08:00 ] 127.0.0.1 127.0.0.1 GET HTTP://w-think.hyx.com/
+[ log ] w-think.hyx.comHTTP://w-think.hyx.com/ [运行时间：0.033646s][吞吐率：29.72req/s] [内存消耗：913.24kb] [文件加载：25]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\web\w-think\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T20:28:29+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] w-think.hyx.com/ [运行时间：0.034600s][吞吐率：28.90req/s] [内存消耗：913.07kb] [文件加载：25]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\web\w-think\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-24T20:28:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] w-think.hyx.com/index.php [运行时间：0.021746s][吞吐率：45.99req/s] [内存消耗：914.03kb] [文件加载：25]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'accept-encoding' => 'compress,gzip',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\web\w-think\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

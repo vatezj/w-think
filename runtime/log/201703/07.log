@@ -1,0 +1,45 @@
+[ 2017-03-07T20:38:11+08:00 ] 127.0.0.1 127.0.0.1 GET HTTP://w-think.hyx.com/
+[ log ] w-think.hyx.comHTTP://w-think.hyx.com/ [运行时间：0.099916s][吞吐率：10.01req/s] [内存消耗：913.23kb] [文件加载：25]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\web\w-think\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-07T20:38:11+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] w-think.hyx.com/ [运行时间：0.034017s][吞吐率：29.40req/s] [内存消耗：913.07kb] [文件加载：25]
+[ info ] [ LANG ] F:\web\w-think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'w-think.hyx.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\web\w-think\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
