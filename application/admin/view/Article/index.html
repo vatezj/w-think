@@ -1,0 +1,55 @@
+{include file="admin@public/_header" /}
+        <div class="row">
+
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5 class="btn btn-sm btn-primary"> 返回</h5>
+                        <h5><a href="">菜单列表</a></h5>
+                    </div>
+                    <div class="ibox-content">
+              
+                       
+                        <table class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                  
+                                    <th>ID</th>
+                                    <th>标题</th>
+                                    <th>分类</th>
+                                    <th>点击量</th>
+                                    <th>作者</th>
+                                    <th>状态</th>
+                                    <th>发布时间</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            {php}
+                                $menu_statuses=array("1"=>"显示","0"=>"隐藏");
+                            {/php}
+
+                            {volist name="info" id="vo"}
+                                <tr>
+                                    <td>{$vo.id}</td>
+                                    <td>{$vo.article_title}</td>
+                                    <td>{$vo.article_type}</td>
+                                    <td>{$vo.article_hits}</td>
+                                    <td>{$menu_statuses[$vo.article_status]}</td>
+                                    <td>{$vo.article_date}</td>
+                                    <td></td>
+                                      <td><a href="javascript:void(0);" data-url="{:url('del',array('id'=> $vo['id']))}" class="js-ajax-del">删除</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="{:url('edit',array('id'=> $vo['id']))}">编辑
+                                    </a></td>
+                                </tr>
+                            {/volist}
+                                
+                          
+                                 
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+{include file="admin@public/_footer" /}
