@@ -12,17 +12,17 @@ class Index extends Admin
         $info = model('Menu');
         $res = $info->listInfo();
         $this->assign('info', $res);
-        return $this->fetch('index');
+        return $this->fetch('Index/index');
    }
 
     public function login()
     {   
-        return $this->fetch('login');
+        return $this->fetch('Index/login');
     }
 
      public function icon()
     {   
-        return $this->fetch('icon');
+        return $this->fetch('Index/icon');
     }
 
 
@@ -41,7 +41,7 @@ class Index extends Admin
             'max_upload_size' => ini_get('upload_max_filesize')
         ];
         $this->assign('config',$config);
-        return $this->fetch('main');
+        return $this->fetch('Index/main');
     }
 
     public function menu()
@@ -51,12 +51,12 @@ class Index extends Admin
         $res = $info->findInfo();
         $this->assign('info', $res);
         p($res);die;
-        return $this->fetch('menu');
+        return $this->fetch('Index/menu');
     }
 
     public function dologin()
     {
         session('user_auth','1111111111111');
-        $this->redirect('index');
+        $this->redirect('admin/Index/index');
     }
 }
