@@ -20,7 +20,7 @@ class Menu extends Admin
         $this->assign('info', $res);
        
          // p($res);die;
-        return $this->fetch('index');
+        return $this->fetch('Menu/index');
    }
 
 
@@ -52,7 +52,7 @@ class Menu extends Admin
         // p($result);die;
         $this->assign('lists',$result);
          // p($res);die;
-        return $this->fetch();
+        return $this->fetch('Menu/edit');
    }
 
    public function del(){
@@ -97,7 +97,7 @@ class Menu extends Admin
         }
        
         $this->assign('info', $res);
-        return $this->fetch();
+        return $this->fetch('Menu/add');
    }
   
 }

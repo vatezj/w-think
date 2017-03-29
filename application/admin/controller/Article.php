@@ -20,7 +20,7 @@ class Article extends Admin
         $this->assign('info', $res);
        
          // p($res);die;
-        return $this->fetch('index');
+        return $this->fetch('Article/index');
    }
 
 
@@ -52,7 +52,7 @@ class Article extends Admin
         // p($result);die;
         $this->assign('lists',$result);
          // p($res);die;
-        return $this->fetch();
+        return $this->fetch('Article/edit');
    }
 
    public function del(){
@@ -84,11 +84,11 @@ class Article extends Admin
         	// // $this->success("设置成功");
         }
 
-        return $this->fetch();
+        return $this->fetch('Article/add');
    }
 
    public function typeclass(){
-        return $this->fetch();
+        return $this->fetch('Article/typeclass');
    }
   
 }
