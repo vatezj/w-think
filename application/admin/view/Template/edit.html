@@ -1,0 +1,110 @@
+{include file="admin@Public/_header" /}
+   
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>编辑菜单</h5>
+                        
+                    </div>
+                    <div class="ibox-content">
+                        <form class="form-horizontal m-t" id="commentForm" action="{:url('edit')}" method="post">
+
+                             <div class="form-group">
+                                 <label class="col-sm-3 control-label">上级：</label>
+
+                                <div class="col-sm-3">
+                                    <select class="form-control m-b" name="parentid">
+                                        <option value="0">作为一级菜单</option>
+                                    {volist name="lists" id="vo"}
+                                        <option value="{$vo.id}" {$vo.selected}>{$vo.name}</option>
+                                    {/volist}
+                                    </select>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">菜单名称：</label>
+                                <div class="col-sm-5">
+                                    <input id="cname" name="name" minlength="2" type="text" class="form-control" required="" aria-required="true" value="{$info.name}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">应用：</label>
+                                <div class="col-sm-5">
+                                    <input id="cemail" type="text" class="form-control" name="app" value="{$info.app}" required="" aria-required="true">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">控制器：</label>
+                                <div class="col-sm-5">
+                                    <input id="curl" type="text" class="form-control" name="model" value="{$info.model}">
+
+                                </div>
+                            </div>
+                             <div class="form-group">
+                                <label class="col-sm-3 control-label">方法名：</label>
+                                <div class="col-sm-5">
+                                    <input id="curl" type="text" class="form-control" name="action" value="{$info.action}">
+                                </div>
+                            </div>
+                             <div class="form-group">
+                                <label class="col-sm-3 control-label">参数：</label>
+                                <div class="col-sm-5">
+                                    <input id="curl" type="text" class="form-control" name="data" value="{$info.data}">
+                                    <span class="help-block m-b-none"><i class="fa fa-info-circle"></i> 例:/id/3/p/3</span>
+                                </div>
+                            </div>
+                             <div class="form-group">
+                                <label class="col-sm-3 control-label">图标：</label>
+                                <div class="col-sm-5">
+                                    <input id="curl" type="text" class="form-control" name="icon" value="{$info.icon}">
+                                    <span class="help-block m-b-none"><i class="fa fa-info-circle"></i> <a href="{:url('admin/Index/icon')}">选择图标</a>不带前缀fa-，如fa-user => user</span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                 <label class="col-sm-3 control-label">状态：</label>
+
+                                <div class="col-sm-3">
+                                    <select class="form-control m-b" name="status">
+                                        {if condition="$info['status'] eq 1"}  
+                                            <option value="1" selected>显示</option>
+                                            <option value="0">隐藏</option>
+                                    {else /}
+                                        <option value="1">显示</option>
+                                        <option value="0" selected>隐藏</option>
+                                    {/if}
+                                       
+                                    </select>
+                                </div>
+                            </div>
+
+                             <div class="form-group">
+                                <label class="col-sm-3 control-label">排序：</label>
+                                <div class="col-sm-5">
+                                    <input type="number" class="form-control" name="listorder" value="{$info.listorder}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">备注：</label>
+                                <div class="col-sm-5">
+                                    <textarea id="ccomment" name="remark" class="form-control" required="" aria-required="true">{$info.remark}</textarea>
+                                </div>
+                            </div>
+
+                            <input type="hidden" name="id" value="{$info.id}">
+                            <div class="form-group">
+                                <div class="col-sm-4 col-sm-offset-3">
+                                    <button class="btn btn-primary js-ajax-submit" type="submit">提交</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+              
+            </div>
+          
+        </div>
+{include file="admin@Public/_footer" /}

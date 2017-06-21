@@ -1,0 +1,105 @@
+{include file="admin@Public/_header" /}
+   
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>添加栏目</h5>
+                        
+                    </div>
+                    <div class="ibox-content">
+                        <form class="form-horizontal m-t" id="commentForm" action="{:url('add')}" method="post">
+
+                             <div class="form-group">
+                                 <label class="col-sm-3 control-label">上级：</label>
+
+                                <div class="col-sm-3">
+                                    <select class="form-control m-b" name="pid">
+                                    <option value="0">作为一级栏目</option>
+                                 <!-- -->
+                                    </select>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">栏目名称：</label>
+                                <div class="col-sm-5">
+                                    <input id="cname" name="title" minlength="2" type="text" class="form-control" required="" aria-required="true">
+                                </div>
+                            </div>
+                          
+                            
+                          
+                           
+                            <div class="form-group">
+                                 <label class="col-sm-3 control-label">状态：</label>
+
+                                <div class="col-sm-3">
+                                    <select class="form-control m-b" name="status">
+                                        <option value="1">显示</option>
+                                        <option value="0">隐藏</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                 <label class="col-sm-3 control-label">类型：</label>
+
+                                <div class="col-sm-3">
+                                    <select class="form-control m-b" name="type">
+                                        <option value="1">列表页</option>
+                                        <option value="2">内容页</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">模板：</label>
+                                <div class="col-sm-5">
+                                        <input id="template" name="template" minlength="2" type="text" class="form-control fl" required="" aria-required="true" style="position: relative;">
+                                        <a href="javascript:void(0);" style="display: block;position: absolute;right: 20px;top:2px;background-color: red;padding: 3px;" id="chose_template">选择模板</a>
+                                </div>
+                            </div>
+                             <div class="form-group">
+                                <label class="col-sm-3 control-label">排序：</label>
+                                <div class="col-sm-5">
+                                    <input type="number" class="form-control" name="sort" value="0">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">备注：</label>
+                                <div class="col-sm-5">
+                                    <textarea id="comment" name="remark" class="form-control" required="" aria-required="true"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-4 col-sm-offset-3">
+                                    <button class="btn btn-primary js-ajax-submit" type="submit">提交</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+              
+            </div>
+          
+        </div>
+{include file="admin@Public/_footer" /}
+
+<script type="text/javascript">
+    //实例化编辑器
+    //建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
+    var url = "{:url('Template/choose')}";
+    console.log(url)
+    $('#chose_template').click(function () {
+        layer.open({
+          type: 2,
+          title: '请选择模板',
+          shadeClose: true,
+          shade: 0.8,
+          area: ['80%', '90%'],
+          content: url //iframe的url
+        }); 
+    });
+</script>

@@ -1,0 +1,52 @@
+{include file="admin@Public/_header" /}
+        <div class="row">
+
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    
+                    <div class="ibox-content">
+             
+                        
+                        <table class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <td>
+                                        
+                                    </td>
+                                    <th>路径</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+            
+                            
+                            {volist name="info" id="vo"}
+                                <tr>
+                                    <td>
+                                        <input type="radio" class="i-checks" name="template" value="{$vo}">
+                                    </td>
+                                    <td>{$vo}</td>
+                                    
+                                </tr>
+                            {/volist}
+                                
+                          
+                           
+                            
+                                 
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+{include file="admin@Public/_footer" /}
+
+<script type="text/javascript">
+    //给父页面传值
+    var index = parent.layer.getFrameIndex(window.name); //获取窗口索引
+    $('.i-checks').on('click', function(){
+        parent.$('#template').val($(this).val());
+        parent.layer.close(index,6000);
+    });
+</script>
