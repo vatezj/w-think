@@ -9,7 +9,6 @@ class Template extends Admin
 {
     public function choose()
     {
-        header("Content-type:text/html;charset=utf-8");
         $filenames = $this->get_filenamesbydir("./template");
         //打印所有文件名，包括路径
         $str2 = '.html';
@@ -39,7 +38,7 @@ class Template extends Admin
                 $dp ->close();
             }
             if(is_file($path)){
-                $path = iconv("gb2312","utf-8",$path);
+                $path = iconv("gb2312","utf-8//TRANSLIT//IGNORE",$path);
                 $files[] =  $path;
             }
         }
@@ -53,7 +52,6 @@ class Template extends Admin
 
     public function index()
     {
-        header("Content-type:text/html;charset=utf-8");
         $res = $this->traverseDir('./template');
         $this->assign('info',$res);
         return $this->fetch('Template/index');
@@ -105,7 +103,7 @@ class Template extends Admin
                 if($filename != "." && $filename != ".."){
                     $subFile = $dir.DIRECTORY_SEPARATOR.$filename; //要将源目录及子文件相连
                     if(is_dir($subFile)){ //若子文件是个目录
-                        $filename = iconv("gb2312","utf-8",$filename);
+                        $filename = iconv("gb2312","utf-8//TRANSLIT//IGNORE",$filename);
                         $data[] = $filename; //输出该目录名称
 
                     }
