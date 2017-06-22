@@ -52,7 +52,7 @@ class Template extends Admin
 
     public function index()
     {
-        $res = $this->traverseDir('./Template');
+        $res = $this->traverseDir('./template');
         $this->assign('info',$res);
         return $this->fetch('Template/index');
     }

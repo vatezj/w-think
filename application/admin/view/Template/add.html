@@ -33,7 +33,14 @@ $(function() {
     $('#file_upload').uploadify({
         'debug'    : true,
         'swf'      : '__ASSETS__/plugins/uploadify/uploadify.swf',
-        'uploader' : uploadUrl
+        'uploader' : uploadUrl,
+        'onUploadSuccess':function(file, data, response){
+            if(data == 1){
+                  sweetAlert('上传成功')  
+            }else{
+                sweetAlert(data)
+            }
+        }
         // Put your options here
     });
 });
