@@ -39,7 +39,7 @@ class Template extends Admin
                 $dp ->close();
             }
             if(is_file($path)){
-                $path = iconv("gb2312","utf-8//TRANSLIT//IGNORE",$path);
+                $path = iconv("gb2312","utf-8",$path);
                 $files[] =  $path;
             }
         }
@@ -105,7 +105,7 @@ class Template extends Admin
                 if($filename != "." && $filename != ".."){
                     $subFile = $dir.DIRECTORY_SEPARATOR.$filename; //要将源目录及子文件相连
                     if(is_dir($subFile)){ //若子文件是个目录
-                        $filename = iconv("gb2312","utf-8//TRANSLIT//IGNORE",$filename);
+                        $filename = iconv("gb2312","utf-8",$filename);
                         $data[] = $filename; //输出该目录名称
 
                     }
