@@ -45,6 +45,12 @@
                         <td>最大上传限制</td>
                         <td>{$config.max_upload_size}</td>
                     </tr>
+                    {list index="index" id="vo"}
+                        <tr>
+                            <td>{$vo.id}</td>
+                            <td>{$config.max_upload_size}</td>
+                        </tr>
+                    {/list}
                         </table>
 
                       </div>

@@ -49,6 +49,7 @@ class Cx extends Taglib
         'for'        => ['attr' => 'start,end,name,comparison,step'],
         'url'        => ['attr' => 'link,vars,suffix,domain', 'close' => 0, 'expression' => true],
         'function'   => ['attr' => 'name,vars,use,call'],
+        'list'     => ['attr' => 'index,id,offset,length,key,mod,order'],
     ];
 
     /**
@@ -113,6 +114,60 @@ class Cx extends Taglib
         $parseStr .= $content;
         $parseStr .= '<?php endforeach; endif; else: echo "' . $empty . '" ;endif; ?>';
 
+        if (!empty($parseStr)) {
+            return $parseStr;
+        }
+        return;
+    }
+
+    /**
+     * Article标签解析 循环输出数据集
+     * 格式：
+     * {volist index="userList" id="user" }
+     * {user.username}
+     * {user.email}
+     * {/volist}
+     * @access public
+     * @param array $tag 标签属性
+     * @param string $content 标签内容
+     * @return string|void
+     */
+    public function tagList($tag, $content)
+    {
+        $index   = $tag['index'];
+        $id     = $tag['id'];
+        $empty  = isset($tag['empty']) ? $tag['empty'] : '';
+        $key    = !empty($tag['key']) ? $tag['key'] : 'i';
+        $mod    = isset($tag['mod']) ? $tag['mod'] : '2';
+        $offset = !empty($tag['offset']) && is_numeric($tag['offset']) ? intval($tag['offset']) : 0;
+        $length = !empty($tag['length']) && is_numeric($tag['length']) ? intval($tag['length']) : 1;
+        $order  = !empty($tag['order']) ? $tag['order'] : 'id DESC';
+        $name   = 'listInfo';
+        // 允许使用函数设定数据集 <volist name=":fun('arg')" id="vo">{$vo.name}</volist>
+        $parseStr = '<?php ';
+        $flag     = substr($name, 0, 1);
+        if (':' == $flag) {
+            $name = $this->autoBuildVar($name);
+            $parseStr .= '$_result=' . $name . ';';
+            $name = '$_result';
+        } else {
+            $name = $this->autoBuildVar($name);
+        }
+        $parseStr .= '$listInfo = db(\'article\')->where(array(\'index\'=>"'.$index.'"))->order("'.$order.'")->limit("0,'.$length.'")->select();';
+        $parseStr .= 'if(is_array(' . $name . ') || ' . $name . ' instanceof \think\Collection): $' . $key . ' = 0;';
+        // 设置了输出数组长度
+        if (0 != $offset || 'null' != $length) {
+            $parseStr .= '$__LIST__ = is_array(' . $name . ') ? array_slice(' . $name . ',' . $offset . ',' . $length . ', true) : ' . $name . '->slice(' . $offset . ',' . $length . ', true); ';
+        } else {
+            $parseStr .= ' $__LIST__ = ' . $name . ';';
+        }
+        $parseStr .= 'if( count($__LIST__)==0 ) : echo "' . $empty . '" ;';
+        $parseStr .= 'else: ';
+        $parseStr .= 'foreach($__LIST__ as $key=>$' . $id . '): ';
+        $parseStr .= '$mod = ($' . $key . ' % ' . $mod . ' );';
+        $parseStr .= '++$' . $key . ';?>';
+        $parseStr .= $content;
+        $parseStr .= '<?php endforeach; endif; else: echo "' . $empty . '" ;endif; ?>';
         if (!empty($parseStr)) {
             return $parseStr;
         }

@@ -321,6 +321,11 @@ class TagLib
         return $name;
     }
 
+    public function autoBuildArray(&$name)
+    {
+        $this->tpl->parseArray($name);
+    }
+
     /**
      * 获取标签列表
      * @access public
