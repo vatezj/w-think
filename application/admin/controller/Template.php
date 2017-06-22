@@ -9,7 +9,7 @@ class Template extends Admin
 {
     public function choose()
     {
-        $filenames = $this->get_filenamesbydir("./Template");
+        $filenames = $this->get_filenamesbydir("./template");
         //打印所有文件名，包括路径
         $str2 = '.html';
         foreach ($filenames as $k=>$v)
@@ -38,6 +38,7 @@ class Template extends Admin
                 $dp ->close();
             }
             if(is_file($path)){
+                $path = iconv("gb2312","UTF-8",$path);
                 $files[] =  $path;
             }
         }
@@ -52,7 +53,8 @@ class Template extends Admin
     public function index()
     {
         $res = $this->traverseDir('./Template');
-        p($res);
+        $this->assign('info',$res);
+        return $this->fetch('Template/index');
     }
 
     public function add()
@@ -75,11 +77,13 @@ class Template extends Admin
                 if (in_array($fileParts['extension'],$fileTypes)) {
                     move_uploaded_file($tempFile,$targetFile);
                     $archive = new PclZip($targetFile);
-                    if ($archive->extract(PCLZIP_OPT_PATH,'uploads') == 0) { /*解压缩路径跟原始档相同路径*/
-                        die("Error : ".$archive->errorInfo(true));
+                    if ($archive->extract(PCLZIP_OPT_PATH,'template') == 0) { /*解压缩路径跟原始档相同路径*/
+                        echo "解压失败";
+                    }else{
+                        echo 1;
                     }
                 } else {
-                    echo 'Invalid file type.';
+                    echo '上传失败';
                 }
             }
             die;
@@ -99,7 +103,8 @@ class Template extends Admin
                 if($filename != "." && $filename != ".."){
                     $subFile = $dir.DIRECTORY_SEPARATOR.$filename; //要将源目录及子文件相连
                     if(is_dir($subFile)){ //若子文件是个目录
-                         $data[] = $filename; //输出该目录名称
+                        $filename = iconv("gb2312","UTF-8",$filename);
+                        $data[] = $filename; //输出该目录名称
 
                     }
                 }

@@ -1,0 +1,226 @@
+/* 首页 */
+body{
+	background-color: #E9EDF0;
+			min-width: 1200px;
+		}
+		#nav-header{
+		    background: #000;
+		    color: #fff;
+		    height: 30px;
+		    line-height: 25px;
+		    margin-bottom: 10px;
+		}
+		#nav-header ul{
+		    height: 100%;
+		    text-align: center;
+		    font-size: 15px;
+		    font-weight: bold;
+		}
+		#nav-header ul li{
+		    padding: 10px;        
+		}
+		#nav-header ul li.border-right{
+		    border-right: 1px solid #d7d7d7;
+		}
+		#nav-header ul li.login-btn{
+		    background: #6bc128;
+		}
+		#nav-header ul li.limit-width{
+		    width: 100px;
+		}
+		header{
+			width: 100%;
+			height: 100px;
+			background-color: #000000;
+			color: #FFFFFF;
+			margin-bottom: 10px;
+		}
+		nav ul{
+			width: 80%;
+		    text-align: center;
+		    font-size: 16px;
+		    font-weight: bold;
+		    margin: 0 auto;
+		    clear: both;
+		}
+		nav ul li{
+			float: left;
+			line-height:40px;
+			width: 9%;
+		}
+		nav ul li a:hover{
+			color: rgb(111, 184, 42)
+		}
+		a{
+			color: #FFFFFF;
+		}
+		.top{
+			width: 100%;
+			margin: 0 auto;
+		}
+		.login{
+			margin-top: -22px;
+			float: right;
+		}
+		.weather{
+			padding: 5px;
+		}
+		.top a{			
+			font-size: 15px;
+			padding: 5px;
+		}
+		.login_button{
+			padding: 8px;
+			background-color: rgb(111, 184, 42);
+		}
+		.navbar-default .navbar-nav{
+			min-width: 1200px;	
+		}
+		.navbar-default .navbar-nav>li{
+			
+		}
+		.navbar-default .navbar-nav>li>a {
+		    color: #FFFFFF;
+		  	font-size: 20px;
+		  	font-weight: bold;
+		}
+		.navbar-default {
+		     background-color: #000000; 
+		     border-color: #000000; 
+		}
+		.box{
+			/* min-width: 200px; */
+			background-color: #FFFFFF;
+			margin-bottom: 10px;
+			padding-bottom: 50px;
+		}
+		.box img{
+			width: 100%;
+			
+		}
+		.clear{
+			clear: both;
+		}
+		.duotu{
+			padding: 3px 10px 3px 10px;
+			background-color: #BFC4C8;
+			border-radius: 10px;
+			color: #FFFFFF;	
+			margin-top: -2px
+		}
+		.box h2{
+			height: 20px;
+			width: 95%;
+			margin: 0 auto;
+			margin-top: 10px;
+			text-decoration: underline;
+		}
+		.fl{
+			float: left;
+		}
+		.fr{
+			float: right;
+		}
+		.box h2 span{
+			display: inline;
+		}
+		.box p {
+			width: 90%;
+			margin: 0 auto;
+			margin-top: 10px;
+		}
+		.box .title{
+			font-weight: bold;
+			font-size: 15px;
+			letter-spacing:2px;
+			line-height: 20px;
+		}
+		.article{
+			letter-spacing:1px;
+			line-height: 20px;
+		}
+		.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+		    position: relative;
+		    min-height: 1px;
+		    padding-right: 5px;
+		    padding-left: 5px;
+		}
+		.ad{
+			margin-left: 10px;
+			
+			margin-top: 22px;
+		}
+		.ad .login{
+			background-color: #FFFFFF;
+			padding: 30px 0;
+		}
+		.ad .login a{
+			color:#000000;
+		}
+		.input{
+			padding: 3px 5px 3px 10px;
+			font-size: 20px;
+			width:90%;
+			margin-left:5%;
+			height:40px;
+		}
+		.bt0{
+			border: 1px solid #A9A9A9;
+			border-top: 0px solid red;
+		}
+		
+		.ad .login .submit{
+			width:40%;
+			margin-top:10px;
+		}
+		.underline{
+			text-decoration: underline;
+		}
+		.ad img {
+			width: 100%;
+		}
+		.ad .ad_img{
+			margin-bottom:10px;
+			width:100%;
+		}
+		.ad .login a{
+			color: #D5D5D5;
+		}
+		.submit{
+			border: 0px;
+			color: #FFFFFF;
+			background-color: rgb(111, 184, 42);
+		}
+		.login_a{
+			font-size: 14px;
+			margin-left: 5px;
+		}
+		.fs15{
+			font-size: 15px;
+		}
+		.ad_button{
+			text-align: center;
+			margin-top: 20px;
+		}
+
+		.ad_button button{
+			padding: 8px 20px;
+			border-radius: 20px;
+			border: 0px;
+			color: #6C8294;
+			background-color: #ACD9FF;
+		}
+		.container{
+			width: 90%;
+		}
+		.tip{
+			width: 102%;
+			height: 30px;
+			text-align: center;
+			color: #FFFFFF;
+			background-color: #79C932;
+			margin: 0 auto;
+			padding-top: 10px;
+			margin-left: -1.5%;
+			margin-bottom: 10px;
+		}

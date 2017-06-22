@@ -1,0 +1,45 @@
+{include file="admin@Public/_header" /}
+        <div class="row">
+
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5 class="btn btn-sm btn-primary"> 返回</h5>
+                        <h5><a href="">模板列表</a></h5>
+                    </div>
+                    <div class="ibox-content">
+              
+                       
+                        <table class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                  
+                                    <th>ID</th>
+              
+                                    <th>模板</th>
+                          
+                                </tr>
+                            </thead>
+                            <tbody>
+                   
+
+                            {volist name="info" id="vo" key="k"}
+                                <tr>
+                                    <td>{$k}</td>
+                                    <td>{$vo}</td>
+                                  
+                                  
+                                     
+                                </tr>
+                            {/volist}
+                                
+                          
+                                 
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+{include file="admin@Public/_footer" /}
