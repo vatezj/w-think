@@ -49,7 +49,7 @@ class Cx extends Taglib
         'for'        => ['attr' => 'start,end,name,comparison,step'],
         'url'        => ['attr' => 'link,vars,suffix,domain', 'close' => 0, 'expression' => true],
         'function'   => ['attr' => 'name,vars,use,call'],
-        'list'     => ['attr' => 'index,id,offset,length,key,mod,order'],
+        'list'     => ['attr' => 'index,id,offset,length,key,mod,order,limit'],
     ];
 
     /**
@@ -138,9 +138,10 @@ class Cx extends Taglib
         $id     = $tag['id'];
         $empty  = isset($tag['empty']) ? $tag['empty'] : '';
         $key    = !empty($tag['key']) ? $tag['key'] : 'i';
+        $limit    = !empty($tag['limit ']) ? $tag['limit '] : '0,100';
         $mod    = isset($tag['mod']) ? $tag['mod'] : '2';
         $offset = !empty($tag['offset']) && is_numeric($tag['offset']) ? intval($tag['offset']) : 0;
-        $length = !empty($tag['length']) && is_numeric($tag['length']) ? intval($tag['length']) : 1;
+        $length = !empty($tag['length']) && is_numeric($tag['length']) ? intval($tag['length']) : 'null';
         $order  = !empty($tag['order']) ? $tag['order'] : 'id DESC';
         $name   = 'listInfo';
         // 允许使用函数设定数据集 <volist name=":fun('arg')" id="vo">{$vo.name}</volist>
@@ -153,7 +154,7 @@ class Cx extends Taglib
         } else {
             $name = $this->autoBuildVar($name);
         }
-        $parseStr .= '$listInfo = db(\'article\')->where(array(\'index\'=>"'.$index.'"))->order("'.$order.'")->limit("0,'.$length.'")->select();';
+        $parseStr .= '$listInfo = db(\'article\')->where(array(\'index\'=>"'.$index.'",\'status\'=>1))->order("'.$order.'")->limit("'.$limit.'")->select();';
         $parseStr .= 'if(is_array(' . $name . ') || ' . $name . ' instanceof \think\Collection): $' . $key . ' = 0;';
         // 设置了输出数组长度
         if (0 != $offset || 'null' != $length) {
@@ -168,6 +169,7 @@ class Cx extends Taglib
         $parseStr .= '++$' . $key . ';?>';
         $parseStr .= $content;
         $parseStr .= '<?php endforeach; endif; else: echo "' . $empty . '" ;endif; ?>';
+        //dump($parseStr);die;
         if (!empty($parseStr)) {
             return $parseStr;
         }
