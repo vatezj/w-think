@@ -9,6 +9,7 @@ class Template extends Admin
 {
     public function choose()
     {
+        header("Content-type:text/html;charset=utf-8");
         $filenames = $this->get_filenamesbydir("./template");
         //打印所有文件名，包括路径
         $str2 = '.html';
@@ -52,6 +53,7 @@ class Template extends Admin
 
     public function index()
     {
+        header("Content-type:text/html;charset=utf-8");
         $res = $this->traverseDir('./template');
         $this->assign('info',$res);
         return $this->fetch('Template/index');
