@@ -74,7 +74,7 @@ class Template extends Admin
 
                 if (in_array($fileParts['extension'],$fileTypes)) {
                     move_uploaded_file($tempFile,$targetFile);
-                    $archive = new PclZip($targetFile);
+                    $archive = new pclzip($targetFile);
                     if ($archive->extract(PCLZIP_OPT_PATH,'uploads') == 0) { /*解压缩路径跟原始档相同路径*/
                         die("Error : ".$archive->errorInfo(true));
                     }
