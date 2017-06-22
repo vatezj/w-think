@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:38:"application/admin\view\Index\main.html";i:1489306287;s:42:"application/admin/view/public\_header.html";i:1489306287;s:42:"application/admin/view/public\_footer.html";i:1489306287;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:38:"application/admin\view\Index\main.html";i:1498026602;s:42:"application/admin/view/Public\_header.html";i:1498026602;s:42:"application/admin/view/Public\_footer.html";i:1498030886;}*/ ?>
  <!DOCTYPE html>
 <html>
 
@@ -89,7 +89,8 @@
     <script src="__ASSETS__/js/plugins/peity/jquery.peity.min.js"></script>
     <!-- 弹窗js -->
      <script src="__ASSETS__/js/sweetalert.min.js"></script>
-   
+
+   <script src="__ASSETS__/js/layer.js"></script>
 
     <!-- 自定义js -->
     <script src="__ASSETS__/js/content.js?v=1.0.0"></script>

@@ -4,94 +4,17 @@
             <div class="col-sm-12">
                 <div class="ibox float-e-margins">
                     <div class="ibox-title">
-                        <h5>添加菜单</h5>
+                        <h5>添加模板</h5>
                         
                     </div>
                     <div class="ibox-content">
                         <form class="form-horizontal m-t" id="commentForm" action="{:url('add')}" method="post">
-
                              <div class="form-group">
-                                 <label class="col-sm-3 control-label">上级：</label>
-
-                                <div class="col-sm-3">
-                                    <select class="form-control m-b" name="parentid">
-                                    <option value="0">作为一级菜单</option>
-                                    {volist name="info" id="vo"}
-                                        <option value="{$vo.id}" {$vo.selected}>{$vo.name}</option>
-                                    {/volist}
-                                    </select>
-                                </div>
-                            </div>
-
-
-                            <div class="form-group">
-                                <label class="col-sm-3 control-label">菜单名称：</label>
+                                <label class="col-sm-3 control-label">模板：</label>
                                 <div class="col-sm-5">
-                                    <input id="cname" name="name" minlength="2" type="text" class="form-control" required="" aria-required="true">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-sm-3 control-label">应用：</label>
-                                <div class="col-sm-5">
-                                    <input id="cemail" type="text" class="form-control" name="app" required="" aria-required="true">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-sm-3 control-label">控制器：</label>
-                                <div class="col-sm-5">
-                                    <input id="curl" type="text" class="form-control" name="model">
-
-                                </div>
-                            </div>
-                             <div class="form-group">
-                                <label class="col-sm-3 control-label">方法名：</label>
-                                <div class="col-sm-5">
-                                    <input id="curl" type="text" class="form-control" name="action">
-                                </div>
-                            </div>
-                             <div class="form-group">
-                                <label class="col-sm-3 control-label">参数：</label>
-                                <div class="col-sm-5">
-                                    <input id="curl" type="text" class="form-control" name="data">
-                                    <span class="help-block m-b-none"><i class="fa fa-info-circle"></i> 例:/id/3/p/3</span>
-                                </div>
-                            </div>
-                             <div class="form-group">
-                                <label class="col-sm-3 control-label">图标：</label>
-                                <div class="col-sm-5">
-                                    <input id="curl" type="text" class="form-control" name="icon">
-                                    <span class="help-block m-b-none"><i class="fa fa-info-circle"></i> <a href="{:url('admin/Index/icon')}">选择图标</a>不带前缀fa-，如fa-user => user</span>
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                 <label class="col-sm-3 control-label">状态：</label>
-
-                                <div class="col-sm-3">
-                                    <select class="form-control m-b" name="status">
-                                        <option value="1">显示</option>
-                                        <option value="0">隐藏</option>
-                                    </select>
-                                </div>
-                            </div>
-
-                             <div class="form-group">
-                                <label class="col-sm-3 control-label">排序：</label>
-                                <div class="col-sm-5">
-                                    <input type="number" class="form-control" name="listorder" value="0">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-sm-3 control-label">备注：</label>
-                                <div class="col-sm-5">
-                                    <textarea id="ccomment" name="remark" class="form-control" required="" aria-required="true"></textarea>
-                                </div>
-                            </div>
-
-
-                            <div class="form-group">
-                                <div class="col-sm-4 col-sm-offset-3">
-                                    <button class="btn btn-primary js-ajax-submit" type="submit">提交</button>
+                                       
+                                        <input type="file" name="file_upload" id="file_upload" style="display: block;position: absolute;right: 20px;top:2px;background-color: red;padding: 3px;" >
+                                        
                                 </div>
                             </div>
                         </form>
@@ -102,3 +25,16 @@
           
         </div>
 {include file="admin@Public/_footer" /}
+<script src="__ASSETS__/plugins/uploadify/jquery.uploadify.min.js"></script>
+<link rel="stylesheet" href="__ASSETS__/plugins/uploadify/uploadify.css">
+<script>
+$(function() {
+    var uploadUrl = "{:url('Template/add')}";
+    $('#file_upload').uploadify({
+        'debug'    : true,
+        'swf'      : '__ASSETS__/plugins/uploadify/uploadify.swf',
+        'uploader' : uploadUrl
+        // Put your options here
+    });
+});
+</script>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:39:"application/admin\view\Index\login.html";i:1489306286;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:39:"application/admin\view\Index\login.html";i:1498026602;}*/ ?>
 <!DOCTYPE html>
 <html>
 

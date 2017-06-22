@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:39:"application/admin\view\Index\index.html";i:1489306286;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:39:"application/admin\view\Index\index.html";i:1498026602;}*/ ?>
 <!DOCTYPE html>
 <html>
 
@@ -57,7 +57,7 @@
 
                             <a class="J_menuItem" href="<?php echo url($vo['url']); ?>">
                             <i class="fa fa-home"></i>
-                            <span class="nav-label"><?php echo $vo['name']; ?></span>
+                            <span class="nav-label"><?php echo url($vo['url']); ?><?php echo $vo['name']; ?></span>
                             </a>
                             <?php else: ?> 
                             <a href="#">

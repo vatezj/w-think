@@ -1,7 +1,7 @@
 <?php
 namespace app\common\controller;
 
-use app\common\controller\Base;
+
 
 class Admin extends Base
 {
