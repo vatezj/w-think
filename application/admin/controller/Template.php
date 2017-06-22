@@ -3,7 +3,7 @@ namespace app\admin\controller;
 
 use app\common\controller\Admin;
 use \think\File;
-use pclzip;
+use PclZip;
 
 class Template extends Admin
 {
@@ -74,7 +74,7 @@ class Template extends Admin
 
                 if (in_array($fileParts['extension'],$fileTypes)) {
                     move_uploaded_file($tempFile,$targetFile);
-                    $archive = new pclzip($targetFile);
+                    $archive = new PclZip($targetFile);
                     if ($archive->extract(PCLZIP_OPT_PATH,'uploads') == 0) { /*解压缩路径跟原始档相同路径*/
                         die("Error : ".$archive->errorInfo(true));
                     }
