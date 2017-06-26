@@ -4,6 +4,7 @@ namespace app\admin\controller;
 use app\common\controller\Admin;
 
 use think\Db;
+use \think\Config;
 
 class Index extends Admin
 {
@@ -28,6 +29,7 @@ class Index extends Admin
 
     public function main()
     {
+        p(Config::get('system'));
         $version = Db::query('SELECT VERSION() AS ver');
         $config  = [
             'url'             => $_SERVER['HTTP_HOST'],
@@ -58,5 +60,23 @@ class Index extends Admin
     {
         session('user_auth','1111111111111');
         $this->redirect('admin/Index/index');
+    }
+
+    public function system()
+    {
+        if(IS_POST)
+        {
+            $system = array(
+                'title'    =>  $_POST['title'],
+                'keyword'  =>  $_POST['keyword'],
+                'company'  =>  $_POST['company'],
+                'filing'   =>  $_POST['filing'],
+            );
+            $res = Config::set('system',$system);
+            dump($res);
+            die;
+        }
+        $this->assign('info',Config::get('system'));
+        return $this->fetch('Index/system');
     }
 }

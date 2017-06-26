@@ -17,7 +17,7 @@ return [
     // 应用命名空间
     'app_namespace'          => 'app',
     // 应用调试模式
-    'app_debug'              => true,
+    'app_debug'              => false,
     // 应用Trace
     'app_trace'              => false,
     // 应用模式状态
@@ -227,5 +227,11 @@ return [
         'type'      => 'bootstrap',
         'var_page'  => 'page',
         'list_rows' => 15,
+    ],
+    'system'                 =>[
+        'title'    => 'title',
+        'keyword'  =>  'we more think',
+        'company'  =>  '昇星科技',
+        'filing'   =>  '粤ICP备16067937号-1',
     ],
 ];
