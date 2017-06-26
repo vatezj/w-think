@@ -142,7 +142,8 @@
                     </div>
                     <!-- onclick="ifrmid.window.location.reload()" -->
                     <ul class="nav navbar-top-links navbar-right">
-                        <li onclick="javascript:refreshFrame();">  <a class="count-info" href="#"><i class="fa fa-refresh"></i></a></li>
+                        <li id="refresh"><a class="count-info" href="#"><i class="fa fa-refresh"></i></a></li>
+                        <li onclick="javascript:refreshFrame();">  <a class="count-info" href="#"><i class="fa fa-clear"></i></a></li>
                         <li class="dropdown">
                             <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
                                 <i class="fa fa-envelope"></i> <span class="label label-warning">16</span>
@@ -251,8 +252,29 @@
     <!-- <script src="__ASSETS__/js/plugins/pace/pace.min.js"></script> -->
     <script type="text/javascript">
 
+    $('#refresh').click(function(){
+        var children = $(this).find('i');
+        children.addClass('fa-spin');
+        document.getElementById('J_iframe').contentWindow.location.reload(true);
+        setTimeout(function(){
+            children.removeClass('fa-spin');
+        }, 3000);
+    });
+
+    $('#refresh').click(function(){
+        var children = $(this).find('i');
+        children.addClass('fa-spin');
+        document.getElementById('J_iframe').contentWindow.location.reload(true);
+        setTimeout(function(){
+            children.removeClass('fa-spin');
+        }, 3000);
+    });
+
 function refreshFrame(){
+
+    console.log($(this).children('i').html());
     document.getElementById('J_iframe').contentWindow.location.reload(true);
+
 }
 
 </script>
