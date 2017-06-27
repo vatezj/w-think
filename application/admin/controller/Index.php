@@ -90,7 +90,7 @@ class Index extends Admin
     }
 
     public function clear(){
-        if(is_file('./runtime/temp')){
+        if(is_file('runtime/temp')){
             echo 1;
         }else{
             echo 2;
