@@ -29,7 +29,6 @@ class Index extends Admin
 
     public function main()
     {
-        p(Config::get('system'));
         $version = Db::query('SELECT VERSION() AS ver');
         $config  = [
             'url'             => $_SERVER['HTTP_HOST'],
@@ -52,7 +51,6 @@ class Index extends Admin
         $info = model('Menu');
         $res = $info->findInfo();
         $this->assign('info', $res);
-        p($res);die;
         return $this->fetch('Index/menu');
     }
 
@@ -64,19 +62,79 @@ class Index extends Admin
 
     public function system()
     {
+
+        $model = db('system');
         if(IS_POST)
         {
             $system = array(
                 'title'    =>  $_POST['title'],
-                'keyword'  =>  $_POST['keyword'],
+                'keywords'  =>  $_POST['keyword'],
                 'company'  =>  $_POST['company'],
                 'filing'   =>  $_POST['filing'],
+                'description'   =>  $_POST['description'],
             );
-            $res = Config::set('system',$system);
-            dump($res);
-            die;
+            $res = $model->where(array('id'=>1))->update($system);
+            if($res){
+                $data['status'] = 2;
+                $data['url'] = url('admin/Index/system');
+                $data['content'] = '修改成功';
+            }else{
+                $data['status'] = 1;
+                $data['content'] = '修改失败';
+            }
+            return $data;
         }
-        $this->assign('info',Config::get('system'));
+        $info = $model->find(1);
+        $this->assign('info',$info);
         return $this->fetch('Index/system');
+    }
+
+    public function clear(){
+        $this->delDirAndFile('./runtime/temp');
+        $info = $this->delDirAndFile('./runtime/cache');
+        return $info;
+    }
+    //删除文件夹（包括文件夹）
+    protected function delDirAndFile( $dirName )
+    {
+        if ( $handle = opendir( "$dirName" ) ) {
+            while ( false !== ( $item = readdir( $handle ) ) ) {
+                if ( $item != "." && $item != ".." ) {
+                    if ( is_dir( "$dirName/$item" ) ) {
+                        delDirAndFile( "$dirName/$item" );
+                    } else {
+                        unlink( "$dirName/$item" );
+                    }
+                }
+            }
+            closedir( $handle );
+            if(rmdir( $dirName )){
+                $data = [
+                    'code'=>1,
+                    'message'=>'清除成功'
+                ];
+            } else {
+                $data = [
+                    'code'=>2,
+                    'message'=>'清除失败'
+                ];
+            }
+        }
+    }
+    //删除文件夹（不包括文件夹）
+    protected function delFileUnderDir( $dirName )
+    {
+        if ( $handle = opendir( "$dirName" ) ) {
+            while ( false !== ( $item = readdir( $handle ) ) ) {
+                if ( $item != "." && $item != ".." ) {
+                    if ( is_dir( "$dirName/$item" ) ) {
+                        delFileUnderDir( "$dirName/$item" );
+                    } else {
+                        if( unlink( "$dirName/$item" ) )echo "成功删除文件： $dirName/$item\n";
+                    }
+                }
+            }
+            closedir( $handle );
+        }
     }
 }

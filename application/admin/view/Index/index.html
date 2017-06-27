@@ -99,32 +99,6 @@
                             {/if}     
                          </li>
                          {/volist}
-
-                    <li>
-                        <a href="#">
-                            <i class="fa fa fa-bar-chart-o"></i>
-                            <span class="nav-label">设置</span>
-                            <span class="fa arrow"></span>
-                        </a>
-                        <ul class="nav nav-second-level">
-                            <li>
-                               <a href="#">菜单管理 <span class="fa arrow"></span></a>
-                                <ul class="nav nav-third-level">
-                                    <li><a class="J_menuItem" href="{:url('menu')}"><i class="fa fa fa-bar-chart-o"></i>后台菜单</a>
-                                    </li>
-                                    <li>
-                                         <a class="J_menuItem" href="agile_board.html">任务清单</a>
-                                    </li>
-                                </ul>
-                            
-                            </li>
-                            <li>
-                                <a class="J_menuItem" href="graph_flot.html">修改密码</a>
-                            </li>
-                        </ul>
-                    </li>
-                    
-
                 </ul>
             </div>
         </nav>
@@ -133,17 +107,18 @@
         <div id="page-wrapper" class="gray-bg dashbard-1">
             <div class="row border-bottom">
                 <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-                    <div class="navbar-header"><a class="navbar-minimalize minimalize-styl-2 btn btn-info " href="#"><i class="fa fa-bars"></i> </a>
+                    <div class="navbar-header"><a class="navbar-minimalize minimalize-styl-2 btn btn-info" href="#" title="折叠菜单栏"><i class="fa fa-bars"></i> </a>
                        <!--  <form role="search" class="navbar-form-custom" method="post" action="search_results.html">
                             <div class="form-group">
                                 <input type="text" placeholder="请输入您需要查找的内容 …" class="form-control" name="top-search" id="top-search">
                             </div>
-                        </form> -->
+                        </form> --><a class="minimalize-styl-2 btn btn-info" href="#" title="生成html"><i class="fa fa-exchange"></i> </a>
+
                     </div>
                     <!-- onclick="ifrmid.window.location.reload()" -->
                     <ul class="nav navbar-top-links navbar-right">
-                        <li id="refresh"><a class="count-info" href="#"><i class="fa fa-refresh"></i></a></li>
-                        <li onclick="javascript:refreshFrame();">  <a class="count-info" href="#"><i class="fa fa-clear"></i></a></li>
+                        <li id="refresh"><a class="count-info" href="#" title="刷新页面"><i class="fa fa-refresh"></i></a></li>
+                        <li id="trash"><a class="count-info" href="#" title="清除缓存"><i class="fa fa-trash"></i></a></li>
                         <li class="dropdown">
                             <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
                                 <i class="fa fa-envelope"></i> <span class="label label-warning">16</span>
@@ -261,13 +236,11 @@
         }, 3000);
     });
 
-    $('#refresh').click(function(){
-        var children = $(this).find('i');
-        children.addClass('fa-spin');
-        document.getElementById('J_iframe').contentWindow.location.reload(true);
-        setTimeout(function(){
-            children.removeClass('fa-spin');
-        }, 3000);
+    $('#trash').click(function(){
+        var url = "{:url('admin/Index/clear')}";
+        $.get(url, function(result){
+            console.log(result);
+        });
     });
 
 function refreshFrame(){
