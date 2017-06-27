@@ -239,7 +239,7 @@
     $('#trash').click(function(){
         var url = "{:url('admin/Index/clear')}";
         $.get(url, function(result){
-            console.log(result);
+            swal("删除失败");
         });
     });
 
