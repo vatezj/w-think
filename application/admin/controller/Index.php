@@ -96,6 +96,7 @@ class Index extends Admin
         if(is_dir('./runtime/cache')){
             $info = $this->delDirAndFile('./runtime/cache');
         }
+        $info['message'] = 'ok';
         return $info;
     }
     //删除文件夹（包括文件夹）
