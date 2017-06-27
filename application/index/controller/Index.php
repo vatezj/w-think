@@ -1,10 +1,12 @@
 <?php
 namespace app\index\controller;
 
-class Index
+use think\Controller;
+
+class Index extends Controller
 {
-    public function index($name="胡扬星")
+    public function index()
     {
-        return '这里是前台页面'.$name;
+        return $this->fetch('Index/index');
     }
 }
