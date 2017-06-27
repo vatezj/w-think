@@ -90,8 +90,12 @@ class Index extends Admin
     }
 
     public function clear(){
-        $this->delDirAndFile('./runtime/temp');
-        $info = $this->delDirAndFile('./runtime/cache');
+        if(is_file('./runtime/temp')){
+            $info = $this->delDirAndFile('./runtime/temp');
+        }
+        if(is_file('./runtime/temp')){
+            $info = $this->delDirAndFile('./runtime/cache');
+        }
         return $info;
     }
     //删除文件夹（包括文件夹）
