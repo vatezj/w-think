@@ -241,7 +241,11 @@
     $('#trash').click(function(){
         var url = "{:url('admin/Index/clear')}";
         $.get(url, function(result){
-            swal("删除失败");
+     
+            layer.msg('删除失败', {
+                offset: 't',
+                anim: 6
+            });
         });
     });
 
