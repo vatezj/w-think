@@ -90,6 +90,8 @@ class Index extends Admin
     }
 
     public function clear(){
+        echo is_file('./runtime/temp');
+        die;
         if(is_file('./runtime/temp')){
             $info = $this->delDirAndFile('./runtime/temp');
         }
